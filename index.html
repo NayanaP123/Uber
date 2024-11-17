@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ----------nav----------- -->
+    <nav class="nav">
+        <!-- logo -->
+        <div>
+            <img style="margin-top: 12px;" src="./images/uber.png" alt="">
+
+        </div>
+        <!-- list -->
+        <div style="display: flex;align-items: center;justify-content: center;">
+            <ul id="one">
+                <li>Ride</li>
+                <li>Drive</li>
+                <li>Business</li>
+                <li>About <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i></li>
+            </ul>
+        </div>
+        <div style="width: 700px;">
+
+        </div>
+        <div style="display: flex;align-items: center;justify-content: center;">
+            <ul id="two">
+                <li><i class="fa-solid fa-globe" style="color: #ffffff;"></i> English</li>
+                <li>Help</li>
+                
+            </ul>
+        </div>
+        <div>
+            <ul style="display: flex;align-items: center;justify-content: center; margin-top: -10px;">
+                <li><button  style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); height: 40px; width: 70px;border: 2px solid black;">Log in</button></li>
+                <li><button  style="background-color: rgb(255, 255, 255); color: black; height: 40px; width: 70px;">Sign up</button></li>
+            </ul>   
+        </div>
+    </nav>
+
+    <!-- HOME -->
+     <section>
+        <div class="map"  style="display: flex;align-items: center;justify-content: space-evenly; margin-top: 40px;">
+            <div id="heading">
+                <div>
+                    <h1 id="h1">Go anywhere with <br> Uber</h1>
+                </div>
+                <div>
+                    <div id="in1">
+                        <button id="btn1"><i class="fa-solid fa-circle"></i></button>
+                        <input id="inp1" type="text" placeholder="Pickup location">
+                        <button id="btn1"><i class="fa-solid fa-location-arrow"></i></button>
+                    </div>
+                    <div id="in2">
+                        <button id="btn1"><i class="fa-solid fa-square"></i></button>
+                        <input id="inp2" type="text" placeholder="Dropoff location">
+                        
+                    </div>
+                    <div style="display: flex;align-items: center;justify-content: space-evenly;">
+                        <div id="in3">
+                            <button id="btn1"><i class="fa-solid fa-calendar-days"></i></button>
+                            <input id="inp3" style="border: none;" type="text" placeholder="Today">
+                            
+                        </div>
+
+                        <div id="in4">
+                            <button id="btn1"><i class="fa-solid fa-clock"></i></button>
+                            <input style="border: none;" id="inp3" type="Dropdown" placeholder="Now">
+                            
+                        </div>
+
+                    </div>
+                    <div>
+                        <button  style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); height: 40px; width: 120px; border-radius: 12px;margin-top: 30px;">See prices</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9858.913684163637!2d75.76111575268997!3d11.25872171522229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6592f11eb8511%3A0xf103dcf3408d910e!2sKozhikode%20Beach!5e0!3m2!1sen!2sin!4v1731298572047!5m2!1sen!2sin" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+
+        </div>
+
+     </section>
+
+
+     <!-- SUGGESTION -->
+     <section id="sug" class="sug" style="height: 40vh;margin-left: 10px;">
+        <h1>Suggestions</h1>
+        <div class="sugg">
+            <div >
+                <h2>Ride</h2>
+                <p>Go anywhere with Uber. Request a <br> ride, hop in and go.</p>
+                <button  style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); height: 40px; width: 70px; border-radius: 12px;">Details</button>
+
+            </div>
+
+            <div>
+                <img style="margin-top: 30px;" src="./images/car.png" alt="">
+            </div>
+        </div>
+       </section>
+
+       <!-- CARD 1 -->
+       <section class="card1" id="top" style="display: flex;align-items: center;justify-content: space-evenly; height: 100vh;">
+        <div>
+            <img id="image" src="./images/1.webp" alt="">
+        </div>
+        <div class="c1">
+            <h1 id="h2">Drive when you <br> want, make what <br> you need</h1>
+            <p id="p1">Make money on your schedule with deliveries or rides—or <br class="br">both. You can use your own car or choose a rental <br class="br"> through Uber.</p>
+            <br>
+            <button id="btn2">Get started</button>
+            <br class="break">
+            <a id="a" class="a1" href="">Already have an account? Sign in</a>
+
+        </div>
+       </section>
+
+       <!-- CARD 2 -->
+       <section class="card1"  id="card4" style="display: flex;align-items: center;justify-content: space-evenly; height: 100vh;">
+        
+        <div class="c1" id="s1">
+            <h1 id="h2">The Uber you <br> know, reimagined <br> for business</h1>
+            <p id="p1">Uber for Business is a platform for managing global rides and <br class="br"> meals, and local deliveries, for companies of any size.</p>
+            <br>
+            <button id="btn2">Get started</button>
+            <a id="a" href="">Check out our solutions</a>
+
+        </div>
+        <div id="s2">
+            <img id="image" src="./images/2.webp" alt="">
+        </div>
+       </section>
+       <!-- CARD 3 -->
+       <section class="card1" id="card2" style="display: flex;align-items: center;justify-content: space-evenly; height: 100vh;">
+        <div>
+            <img id="image" src="./images/3.webp" alt="">
+        </div>
+        <div class="c1">
+            <h1 id="h2">Make money by renting out <br> your car</h1>
+            <p id="p1">Connect with thousands of drivers and earn more per week <br class="br"> with Uber’s free fleet management tools.</p>
+            <br>
+            <button id="btn2">Get started</button>
+
+        </div>
+       </section>
+
+       <!-- QR -->
+       <section class="card1" id="qrc" style="margin-top: 70px;"  >
+        <!-- 270px -->
+        
+        <h1 class="qrc" style="text-align: center;">It’s easier in the apps</h1>
+    
+    
+    <div class="space" style="display: flex; align-items: center; justify-content: space-evenly; height: 100vh;margin-top: -200px;">
+        <div id="qr"style="display:flex;align-items:center; justify-content:space-evenly">
+            <!-- First Download Block -->
+            <div id="qr2" class="download-block" style="display: flex; align-items: center; gap: 1rem;">
+                <img src="./images/4.webp" alt="Uber logo">
+                <div>
+                    <h2>Download the Uber app</h2>
+                    <p>Scan to download</p>
+                </div>
+            </div>
+    
+            <!-- Second Download Block -->
+            <div id="qr2" class="download-block" style="display: flex; align-items: center; gap: 1rem;">
+                <img src="./images/5.webp" alt="Uber logo">
+                <div>
+                    <h2>Download the Uber app</h2>
+                    <p>Scan to download</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- LAST -->
+<section class="footer" id="foo" style="background-color: black;">
+    <div>
+        <div>
+            <img id="ub" src="./images/uber.png" alt="">
+        </div>
+
+        <div id="lb"  style="background-color: black;">
+            <p id="lb" style="color: white;margin-left: -3px;">Visit Help Center</p>
+        </div>
+        <div id="foot" style="display: flex;align-items: center;justify-content: space-evenly; color: white;background-color: black;">
+            <div id="tag0" style="color: white;background-color: black;">
+                <h1 id="f1">Company</h1>
+                <ul style="display: flex; flex-direction: column;color: white;background-color: black;margin-top: 10px;">
+                    <li class="colo" style="color: white;">About us</li>
+                    <li class="colo" style="color: white;">Our offerings</li>
+                    <li class="colo" style="color: white;">Newsroom</li>
+                    <li class="colo" style="color: white;">Investors</li>
+                    <li class="colo" style="color: white;">Blog</li>
+                    <li class="colo" style="color: white;">Careers</li>
+                </ul>
+            </div>
+
+
+            <div id="tag1" style="color: white;background-color: black;">
+                <h1 id="f1">Products</h1>
+                <ul style="display: flex; flex-direction: column;margin-top: 10px;">
+                    <li class="colo" style="color: white;">Ride</li>
+                    <li class="colo" style="color: white;">Drive</li>
+                    <li class="colo" style="color: white;">Deliver</li>
+                    <li class="colo" style="color: white;">Eat</li>
+                    <li class="colo" style="color: white;">Uber for Business</li>
+                    <li class="colo" style="color: white;">Uber Freight</li>
+                    <li class="colo" style="color: white;">Gift cards</li>
+                </ul>
+            </div>
+
+
+            <div id="tag2" style="background-color: black;">
+                <h1 id="f1">Global citizenship</h1>
+                <ul style="display: flex; flex-direction: column;margin-top: 10px;">
+                    <li class="colo" style="color: white;">Safety</li>
+                    <li class="colo" style="color: white;">Diversity and Inclusion</li>
+                    <li class="colo" style="color: white;">Sustainability</li>
+                </ul>
+            </div>
+
+
+            <div id="tag3" style="background-color: black;">
+                <h1 id="f1">Travel</h1>
+                <ul style="display: flex; flex-direction: column;margin-top: 10px;">
+                    <li class="colo" style="color: white;">Reserve</li>
+                    <li class="colo" style="color: white;">Cities</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="icon">
+            <div class="icons">
+                <div ><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></div>
+                <div class="social"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></div>
+                <div class="social"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></div>
+                <div class="social"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></div>
+                <div class="social"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+
+            </div>
+            <div>
+
+            </div>
+            <div class="icons" id="l1">
+                <div><p style="color: white;"><i class="fa-solid fa-globe" style="color: #ffffff;"></i> English</p></div>
+                <div class="social"  ><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>  San Francisco Bay Area</div>
+                
+            </div>
+        </div>
+
+        <div class="iconss">
+            <div class="iconsss">
+                <button style="border: 1px solid white;background-color: black; height: 60px; width: 200px;border-radius: 10px;">
+                    <div class="iconsss">
+                    <div>
+                        <img class="imgs" src="./images/playstore.png" alt="">
+                    </div>
+                    <div class="det">
+                        <p style="color: white;">GET IT ON</p>
+                    
+                        <h4 style="color: white;">Google Play</h4>
+                    </div>
+                </div>
+                </button>
+
+            </div>
+
+            <div class="iconx ">
+                <button style="border: 1px solid white;background-color: black; height: 60px; width: 200px;border-radius: 10px;">
+                    <div class="iconsss">
+                <div>
+                    <img class="imgs" src="./images/apple.png" alt="">
+                </div>
+                <div class="det">
+                    <p style="color: white;">Download on the</p>
+                
+                    <h4 style="color: white;">App Store</h4>
+                </div>
+
+            </div>
+    </button>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="last">
+        <div class="f1">
+            <p style="color: white; font-size: 12px; margin-left: -300px;">&copy; 2024 Uber Technologies Inc.</p>
+
+        </div>
+        <div>
+
+        </div>
+        <div class="last2">
+            <p style="color: white;font-size: 12px;">Privacy</p>
+            <p style="color: white;font-size: 12px;margin-left: 30px;">Accessibility</p>
+            <p style="color: white;font-size: 12px;margin-left: 30px;">Terms</p>
+
+        </div>
+    </div>
+ </section>
+    
+    
+</body>
+</html>
